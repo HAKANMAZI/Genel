@@ -1,0 +1,59 @@
+
+add services
+PS C:\> New-Service -Name "TestService" -BinaryPathName "C:\WINDOWS\System32\svchost.exe"
+delete services
+cmd:\> sc delete "TestService"
+
+open event log
+event viewer
+remove event log
+PS C:\> Remove-EventLog -LogName "MyLog"
+
+
+----------------------------------------------------------------------------
+writetotext.py
+  f = open(r"C:\Users\HH\Desktop\output\demofile2.txt", "a")
+  f.write("Now the file has more content!\n")
+  f.close()
+  
+writetotext.bat
+  cmd /k "python C:\Users\HH\Desktop\python\writetotext.py"
+  pause
+ 
+C:\Users\..\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+Not: windows oturum açılırken istediğin bat çalıştırır.
+sol alt köşe sağ tıkla ve çalıştır.
+shell:startup
+  C:\Users\..\..\..\Microsoft\Windows\Start Menu\Programs\Startup
+  C:\Users\..\..\..\Microsoft\Windows\Start Menu\Programs\Startup\writetotext.bat
+windows+R
+shell:startup
+----------------------------------------------------------------------------  
+  
+Not: Bu arada python çalıştırabilmek için python.exe nin klasörünü path'e eklemek lazım
+Ara
+  Ortam Değişkenleri
+    Gelişmiş
+      Ortam Değişkenleri
+        Path
+          New
+            C:\Users\..\..\Local\Continuum\anaconda3
+
+
+c:\> dir face_recognition /s /p
+
+
+2) varbinary, image gibi formatlari hızlıca .png, .jpg, .jpeg 
+<html>
+<img src="data:image/jpeg;base64,/9/4adfafıerk...=="/>
+</html>
+
+cmd search
+   dir javaw.exe /s /p
+   
+   
+
+
+
+--uzak masaüstüne bağlan
+\\bilgisayaradi\c$
