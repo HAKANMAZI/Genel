@@ -1,3 +1,6 @@
+-- Volume gözükmüyor
+  Bu Bilgisiyar > Sağ tıkla > Yönet > Depolama > Disk Yönetimi
+
 
 add services
 PS C:\> New-Service -Name "TestService" -BinaryPathName "C:\WINDOWS\System32\svchost.exe"
