@@ -1,3 +1,4 @@
+#github'dan indir repository'i
 git clone https://github.com/HAKANMAZI/team_cobanov.git
 
 #create branch
