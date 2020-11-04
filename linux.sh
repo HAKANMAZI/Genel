@@ -28,15 +28,15 @@ wc -l movies.json
 
 
 nano /etc/hosts
-  - hosts dosyasını gösterir
+  # hosts dosyasını gösterir
   
 sudo apt-get update
-  - varolan işletim sistemindeki tüm dosyaları günceller (update komutu herhangi bir install ya da upgrade yapmaz) 
+  # varolan işletim sistemindeki tüm dosyaları günceller (update komutu herhangi bir install ya da upgrade yapmaz) 
 sudo apt-get upgrade 
-  - varolan tüm dosyalar yüklenir
+  # varolan tüm dosyalar yüklenir
   
 sudo vi /etc/sudoers
-    - çok önemli
+    # çok önemli
 
 sudo apt install unzip
 unzip ml-latest-small/
