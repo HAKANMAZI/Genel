@@ -40,3 +40,9 @@ sudo vi /etc/sudoers
 
 sudo apt install unzip
 unzip ml-latest-small/
+
+vi
+    type i or a       #for insert
+    type esc then :x  #save and quick
+    type esc then :w  #save and wait
+    type esc then :q! #without save and quick
