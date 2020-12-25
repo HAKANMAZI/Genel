@@ -1,0 +1,9 @@
+
+pip install virtualenv
+
+#create env virtualenvironment
+virtualenv env
+
+Activate your virtualenv:
+\env\Scripts\activate.bat
+C:\Users\'Username'\venv\Scripts\activate.bat
