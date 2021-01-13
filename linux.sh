@@ -13,6 +13,8 @@ source .profile
 echo $PATH
 history -c
 
+sudo parted -l #get file system
+
 ####################################### curl #######################################
 which curl
 curl -XGET 127.0.0.1:9200
