@@ -13,7 +13,7 @@ remove event log
 PS C:\> Remove-EventLog -LogName "MyLog"
 
 
-----------------------------------------------------------------------------
+---------------------------------------------------------------------------- python file i windows'ta çalıştırmak için 
 writetotext.py
   f = open(r"C:\Users\HH\Desktop\output\demofile2.txt", "a")
   f.write("Now the file has more content!\n")
